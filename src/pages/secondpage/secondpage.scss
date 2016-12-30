@@ -1,0 +1,88 @@
+secondpage {
+	.node-bg{
+		width:100%;
+		height:100%;
+		background: url("../assets/img/bg.png") center no-repeat;
+		background-size: cover;
+	}
+
+	.node-header{
+		border-bottom:1px solid $mygreyborder;
+		// filter:blur(10px);
+		// background-color: hsla(0,0%,95%,.2);
+		background:#fff;
+	}
+	.node-padding{
+		padding:8px 52px;
+		width:100%;
+		height:44px;
+		.segment{
+			width:100%;
+			height:28px;
+		}
+	}
+	.node-segment-title{
+		width:100%;
+		height:25px;
+		line-height: 25px;
+		font-size: 16px;
+		color:$myblue;
+		margin-bottom: 4px;
+		text-align: center;
+	}
+
+	.node-card{
+		padding:14px;
+		margin:8px 19px;
+		width: calc(100% - 38px);
+		*{
+			color:$myblue;
+		}
+		.node-card-header{
+			padding:0;
+			.node-card-top{
+				height: 34px;
+				line-height: 34px;
+				min-height: 0;
+				margin-bottom: 2px;
+				.day-text{
+					font-size:32px;
+				}
+				.node-card-top-btn{
+					// vertical-align: top;
+					// align-items:top;
+					margin-top: 0;
+				}
+				.node-card-top-ico{
+					color:$mygrey;
+					text-align: top;
+				}
+			}
+			.node-card-bottom{
+				.card-pic-font{
+					font-size: 12px;
+				}
+				height: 16px;
+				line-height: 16px;
+				min-height: 0;
+				.month-text{
+					width:35px;
+					text-align: center;
+				}
+			}
+		}
+		
+	}
+
+	.calendar-content{
+		width:100%;
+		height:100px;
+		background: #fff;
+	}
+
+	.node-footer{
+		background: $myblue;
+		width:100%;
+		height:49px;
+	}
+}
