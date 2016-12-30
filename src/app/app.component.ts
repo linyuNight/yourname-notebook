@@ -11,7 +11,7 @@ import { SecondPage } from '../pages/secondpage/secondpage';
   templateUrl: 'app.html'
 })
 export class MyApp {
-  rootPage = SecondPage;
+  rootPage = FirstPage;
 
   constructor(platform: Platform) {
     platform.ready().then(() => {

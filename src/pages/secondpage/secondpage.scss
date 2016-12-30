@@ -84,5 +84,18 @@ secondpage {
 		background: $myblue;
 		width:100%;
 		height:49px;
+		display: flex;
+		justify-content: space-between;
+		align-items:center;
+		padding:0 18px;
+		.node-footer-menu{
+			width:40px;
+			height:40px;
+			background:none;
+			.node-footer-menu-icon{
+				font-size: 40px;
+				color:#fff;
+			}
+		}
 	}
 }

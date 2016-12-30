@@ -23,4 +23,7 @@ export class SecondPage {
     console.log('ionViewDidLoad SecondpagePage');
   }
 
+  tomenu() {
+  	this.navCtrl.pop();
+  }
 }

@@ -23,7 +23,7 @@
 <ion-content>
 	<ion-list>
 	  <ion-item-sliding style="padding-left:24px" *ngFor="let nodebook of nodebooks">
-	    <button ion-item class="my-grey no-left">
+	    <button ion-item class="my-grey no-left" (click)="tosecondpage()">
 	      <ion-icon name="bookmarks" class="left-icon"></ion-icon>
 	      <span class="nodetitle">{{nodebook}}</span>
 	    </button>
